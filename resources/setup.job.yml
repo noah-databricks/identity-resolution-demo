@@ -209,6 +209,8 @@ resources:
         - task_key: load_steward
           depends_on: [{task_key: publish_gold}]
           environment_key: steward
+          max_retries: 1
+          min_retry_interval_millis: 30000
           timeout_seconds: 3600
           spark_python_task:
             python_file: ../tasks/load_steward.py
@@ -228,6 +230,8 @@ resources:
         - task_key: refresh_explainer
           depends_on: [{task_key: publish_gold}]
           environment_key: steward
+          max_retries: 1
+          min_retry_interval_millis: 30000
           timeout_seconds: 1800
           spark_python_task:
             python_file: ../tasks/refresh_explainer.py

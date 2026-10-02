@@ -58,18 +58,19 @@ SCENARIOS = [
 ]
 
 # Scenarios located by record keys instead of the curated table. The review pair and
-# the hand-off component are one Steward case (Jessica Pham): two auto-matches join
-# three records through a shared phone and a shared email, and a fourth record the
-# model scores at 99% has no independent personal contact, so it goes to a steward.
+# the hand-off component are one Steward case (Sara Dean): two auto-matches join three
+# records, through a shared email and then a shared phone, and a fourth record the model
+# scores at 96% has no personal contact of its own, so it goes to a steward. Record keys
+# are deterministic for the generator seed (identity-demo-v1).
 EXPLICIT_PAIRS = {
-    "review": ("1ac0fa4e5490cd2a91ace74daa743bb9a4eb3267cc962ec50daed9f6b9c43f25",
-               "30e4325398cee75ee40b35712694f964ab572a7cf1df2d8b56194524d9676dfc"),
+    "review": ("828bf492f98d981c4eff8ae2bbf9ba77c5290e26188bb9e837e12bcce23bac7b",
+               "85a5e966160e60dea8e086590ba17e0ce37120d1ab7ceba84c7f5e5b58dc5069"),
 }
 HANDOFF_COMPONENT = (
-    "1ac0fa4e5490cd2a91ace74daa743bb9a4eb3267cc962ec50daed9f6b9c43f25",
-    "30e4325398cee75ee40b35712694f964ab572a7cf1df2d8b56194524d9676dfc",
-    "6c77109bc3a2ed42dcc9170d4aab0e7b546b83e1d36c0dc7277e946bd04a89cb",
-    "8050ebdfd18df669e9514665949448b8bf36f4d3bcf5e3f788f0dcc9b15cdef1",
+    "828bf492f98d981c4eff8ae2bbf9ba77c5290e26188bb9e837e12bcce23bac7b",
+    "85a5e966160e60dea8e086590ba17e0ce37120d1ab7ceba84c7f5e5b58dc5069",
+    "54f36bd4a355db1c8097e1771c8a66c1f3425495e9bcebb6e08eadb0de307e0f",
+    "1d8f88f932bfc0003344d9f8d506654219df35d2beaab208191629d4d1abace8",
 )
 
 # Splink comparisons in model order (resolution/splink_v4/model.py).

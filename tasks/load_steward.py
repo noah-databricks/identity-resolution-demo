@@ -3,7 +3,8 @@
 Runs as the last part of the setup job, as the job's run-as user:
 
 1. Creates the Steward schema if the app has not created it yet.
-2. Shares ownership of it with the app's service principal (regrant_app_principal.py).
+2. If this task created it, shares ownership with the app's service principal
+   (regrant_app_principal.py).
 3. Imports the release (import_release.py). Rerunning with the same release replays
    the earlier import; a rebuilt release replaces the active one.
 4. Derives each case's review reasons (import_review_context.py).
@@ -46,7 +47,14 @@ def main() -> None:
         if conn.execute("SELECT to_regclass('steward.import_batches')").fetchone()[0] is None:
             with conn.transaction():
                 conn.execute((Path(args.steward_dir) / "schema.sql").read_text())
-        print("ownership", share_ownership(conn, os.environ["PGUSER"], app_principal))
+        owner = conn.execute("SELECT nspowner::regrole::text FROM pg_namespace WHERE nspname='steward'").fetchone()[0]
+        if owner.strip('"') == os.environ["PGUSER"]:
+            # This task created the schema, so the app could not apply schema.sql at startup.
+            print("ownership", share_ownership(conn, os.environ["PGUSER"], app_principal))
+        else:
+            # Usually the app created it. Its owner keeps it; databricks_superuser members,
+            # such as the job's user, can still write the tables.
+            print(f"steward schema owned by {owner}; leaving ownership as is")
         active = conn.execute("SELECT source_run_id FROM steward.import_batches WHERE active").fetchone()
 
     importer = ["--manifest", str(path), "--warehouse-id", args.warehouse_id, "--apply"]

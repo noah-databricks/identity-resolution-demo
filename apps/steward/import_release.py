@@ -285,9 +285,23 @@ class SnapshotReader:
 
 
 def verify_release(workspace, manifest):
+    """The run that froze the release must have succeeded through its release task.
+
+    The setup job imports from inside that same run, so the run as a whole is still
+    going; its `release` task (and every task the release depends on) is what counts.
+    """
     run = workspace.jobs.get_run(run_id=manifest.release_job_run_id)
-    if not run.state or not run.state.result_state or run.state.result_state.value != 'SUCCESS':
-        raise InvalidDecision('Release job has not succeeded; apply is disabled')
+    if run.state and run.state.result_state and run.state.result_state.value == 'SUCCESS':
+        return
+    # Repaired runs list one entry per attempt; the latest attempt of each task counts.
+    latest = {}
+    for task in run.tasks or []:
+        if task.task_key not in latest or (task.attempt_number or 0) >= (latest[task.task_key].attempt_number or 0):
+            latest[task.task_key] = task
+    release = latest.get('release')
+    if not release or not release.state or not release.state.result_state \
+            or release.state.result_state.value != 'SUCCESS':
+        raise InvalidDecision('Release task has not succeeded; apply is disabled')
 
 
 class BulkSnapshotReader(SnapshotReader):
@@ -334,8 +348,14 @@ class BulkSnapshotReader(SnapshotReader):
         for chunk_info in response.manifest.chunks or []:
             chunk = api.get_statement_result_chunk_n(response.statement_id, chunk_info.chunk_index)
             for link in chunk.external_links or []:
-                if link.row_offset != count or not link.external_link.startswith('https://'):
-                    raise InvalidDecision('Invalid external result chunk')
+                # Inside the Databricks runtime (the setup job) the statement API hands out
+                # links to its in-data-plane storage proxy over http; anywhere else, https only.
+                schemes = ('https://', 'http://') if os.environ.get('DATABRICKS_RUNTIME_VERSION') else ('https://',)
+                if link.row_offset != count or not link.external_link.startswith(schemes):
+                    raise InvalidDecision(
+                        f'Invalid external result chunk: chunk {chunk_info.chunk_index} link '
+                        f'{link.chunk_index} offset {link.row_offset} != {count} rows read, '
+                        f'scheme {link.external_link.split(":", 1)[0]}')
                 # Never attach Databricks OAuth to a storage URL. Do not expose signed URLs on errors.
                 try:
                     with requests.get(link.external_link, headers=link.http_headers or {},

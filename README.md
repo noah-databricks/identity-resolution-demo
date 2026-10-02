@@ -59,6 +59,19 @@ already exist in the catalog.
 
 Rerun the job to rebuild from scratch. The Steward queue then switches to the new release.
 
+A reference build produced the numbers below. The generator is deterministic, so your
+build should land at or very near them:
+
+| | |
+|---|---:|
+| Source records | 150,548 |
+| Candidate pairs (AI Search 3,424,179, blocking 521,322, some found by both) | 3,563,099 |
+| Auto-matched pairs | 371,392 |
+| Pairs sent to review | 1,917 |
+| Rejected pairs | 3,189,790 |
+| Guests in `gold.customer_master` | 77,955 |
+| Steward cases (plus 8 oversized groups held outside the queue) | 635 |
+
 ## The two apps
 
 **Explainer (`identity-presenter`).** A presenter-driven walkthrough for a mixed
