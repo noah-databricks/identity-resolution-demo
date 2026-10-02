@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- AI Search mark (framed sparkle), redrawn from the databricks.com AI Search product graphic. Replace with the Brandfolder asset when available. -->
+  <path d="M24 10H6v30h36V30" stroke="#FABFBA" stroke-width="4" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M35 8.5c.9 5.6 2.9 7.6 8.5 8.5-5.6.9-7.6 2.9-8.5 8.5-.9-5.6-2.9-7.6-8.5-8.5 5.6-.9 7.6-2.9 8.5-8.5Z" fill="#FF5F46"/>
+</svg>

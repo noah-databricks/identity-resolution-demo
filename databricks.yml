@@ -1,0 +1,43 @@
+# Guest identity resolution demo: synthetic guest records, a Splink v4 resolver with
+# AI Search candidate retrieval, Gold tables Snowflake can read over Iceberg, and two
+# Databricks Apps (the Steward review app and the explainer).
+#
+#   databricks bundle deploy --var catalog=<catalog> && databricks bundle run setup
+#
+# See README.md.
+bundle:
+  name: identity-resolution-demo
+
+include:
+  - resources/*.yml
+
+variables:
+  catalog:
+    description: An existing Unity Catalog catalog you can create schemas in.
+    default: identity_resolution_demo
+  source_table:
+    description: Resolver input. Point it at a Snowflake-federated table to resolve records in place.
+    default: ${var.catalog}.source.source_identity_records
+  release_id:
+    description: Release the setup job builds, publishes to Gold and loads into the Steward app.
+    default: splink-v4-release
+  review_model:
+    description: Primary model for the Steward review agent. Unity AI Gateway falls back to GPT-5.5, then Claude Sonnet 5.
+    default: models/system.ai.databricks-gpt-5-6-sol
+
+sync:
+  exclude:
+    - "docs/**"
+    - "**/.venv/**"
+    - "**/__pycache__/**"
+
+targets:
+  default:
+    default: true
+    mode: production
+    workspace:
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}
+    presets:
+      tags:
+        demo: identity-resolution
+        data_class: synthetic

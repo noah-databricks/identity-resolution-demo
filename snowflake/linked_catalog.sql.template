@@ -1,0 +1,34 @@
+-- Run in Snowflake as ACCOUNTADMIN. Replace the <placeholders>; paste the OAuth secret
+-- only at execution time and never commit the rendered statement.
+CREATE OR REPLACE CATALOG INTEGRATION DATABRICKS_IDENTITY_GOLD
+  CATALOG_SOURCE = ICEBERG_REST
+  TABLE_FORMAT = ICEBERG
+  REST_CONFIG = (
+    CATALOG_URI = 'https://<workspace-host>/api/2.1/unity-catalog/iceberg-rest'
+    CATALOG_NAME = '<catalog>'
+    ACCESS_DELEGATION_MODE = VENDED_CREDENTIALS
+  )
+  REST_AUTHENTICATION = (
+    TYPE = OAUTH
+    OAUTH_TOKEN_URI = 'https://<workspace-host>/oidc/v1/token'
+    OAUTH_CLIENT_ID = '<application-id>'
+    OAUTH_CLIENT_SECRET = '<oauth-secret>'
+    OAUTH_ALLOWED_SCOPES = ('all-apis')
+  )
+  ENABLED = TRUE;
+
+CREATE DATABASE IF NOT EXISTS DATABRICKS_GOLD
+  LINKED_CATALOG = (
+    CATALOG = 'DATABRICKS_IDENTITY_GOLD'
+    ALLOWED_NAMESPACES = ('gold')
+  )
+  COMMENT = 'Read-only Databricks Gold via Unity Catalog Iceberg REST';
+
+-- Unity Catalog names arrive as case-sensitive lowercase identifiers.
+GRANT USAGE ON DATABASE DATABRICKS_GOLD TO ROLE <reader-role>;
+GRANT USAGE ON SCHEMA DATABRICKS_GOLD."gold" TO ROLE <reader-role>;
+GRANT SELECT ON ALL ICEBERG TABLES IN SCHEMA DATABRICKS_GOLD."gold" TO ROLE <reader-role>;
+GRANT SELECT ON FUTURE ICEBERG TABLES IN SCHEMA DATABRICKS_GOLD."gold" TO ROLE <reader-role>;
+
+SELECT SYSTEM$CATALOG_LINK_STATUS('DATABRICKS_GOLD');
+SELECT COUNT(*) AS resolved_guests FROM DATABRICKS_GOLD."gold"."customer_master";

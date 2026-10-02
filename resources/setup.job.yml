@@ -1,0 +1,244 @@
+# Builds the whole demo from nothing: synthetic source records, the Splink v4 pipeline
+# (embeddings, AI Search, scoring, clustering, frozen release), the Gold tables Snowflake
+# reads, the Steward review queue and the explainer's evidence. Takes a few hours.
+resources:
+  jobs:
+    setup:
+      name: identity-resolution-setup
+      max_concurrent_runs: 1
+      queue:
+        enabled: true
+      parameters:
+        - name: release_id
+          default: ${var.release_id}
+      environments:
+        - environment_key: serverless
+          spec:
+            client: "4"
+        - environment_key: splink
+          spec:
+            client: "4"
+            dependencies:
+              - splink==4.0.17
+              - phonenumbers==9.0.14
+              - mlflow==3.1.4
+        - environment_key: steward
+          spec:
+            client: "4"
+            dependencies:
+              - databricks-sdk==0.139.0
+              - psycopg[binary]==3.3.5
+              - psycopg-pool==3.3.1
+              - requests==2.34.2
+      tasks:
+        - task_key: generate
+          environment_key: serverless
+          timeout_seconds: 7200
+          spark_python_task:
+            python_file: ../synthetic-data/generate.py
+            parameters:
+              - --catalog
+              - ${var.catalog}
+              - --source-schema
+              - source
+              - --truth-schema
+              - truth
+              - --reference-schema
+              - reference
+              - --seed
+              - identity-demo-v1
+              - --generator-version
+              - 4.1.0
+              - --people
+              - "61000"
+              - --pos-rows
+              - "500000"
+              - --stage
+              - generate
+        - task_key: validate_data
+          depends_on: [{task_key: generate}]
+          environment_key: serverless
+          spark_python_task:
+            python_file: ../synthetic-data/generate.py
+            parameters:
+              - --catalog
+              - ${var.catalog}
+              - --source-schema
+              - source
+              - --truth-schema
+              - truth
+              - --reference-schema
+              - reference
+              - --seed
+              - identity-demo-v1
+              - --generator-version
+              - 4.1.0
+              - --people
+              - "61000"
+              - --pos-rows
+              - "500000"
+              - --stage
+              - validate
+        - task_key: source
+          depends_on: [{task_key: validate_data}]
+          environment_key: splink
+          timeout_seconds: 3600
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: source
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: profile
+          depends_on: [{task_key: source}]
+          environment_key: splink
+          timeout_seconds: 1800
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: profile
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: deterministic
+          depends_on: [{task_key: source}]
+          environment_key: splink
+          timeout_seconds: 3600
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: deterministic
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: embeddings
+          depends_on: [{task_key: source}]
+          environment_key: splink
+          timeout_seconds: 10800
+          max_retries: 1
+          min_retry_interval_millis: 30000
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: embeddings
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: train
+          depends_on: [{task_key: profile}]
+          environment_key: splink
+          timeout_seconds: 3600
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: train
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: ann
+          depends_on: [{task_key: embeddings}, {task_key: deterministic}]
+          environment_key: splink
+          timeout_seconds: 10800
+          max_retries: 1
+          min_retry_interval_millis: 30000
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: ann
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: score
+          depends_on: [{task_key: ann}, {task_key: train}, {task_key: profile}]
+          environment_key: splink
+          timeout_seconds: 7200
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: score
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: cluster
+          depends_on: [{task_key: score}]
+          environment_key: splink
+          timeout_seconds: 3600
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: cluster
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: release
+          depends_on: [{task_key: cluster}]
+          environment_key: splink
+          timeout_seconds: 3600
+          notebook_task:
+            notebook_path: ../resolution/splink_v4/run.py
+            base_parameters:
+              stage: release
+              schema: ${var.catalog}.resolution_splink_v4
+              prefix: ''
+              source_table: ${var.source_table}
+              release_id: '{{job.parameters.release_id}}'
+              job_run_id: '{{job.run_id}}'
+        - task_key: publish_gold
+          depends_on: [{task_key: release}]
+          environment_key: serverless
+          spark_python_task:
+            python_file: ../tasks/publish_gold.py
+            parameters: ['--release-id', '{{job.parameters.release_id}}', '--catalog', '${var.catalog}']
+        - task_key: load_steward
+          depends_on: [{task_key: publish_gold}]
+          environment_key: steward
+          timeout_seconds: 3600
+          spark_python_task:
+            python_file: ../tasks/load_steward.py
+            parameters:
+              - --catalog
+              - ${var.catalog}
+              - --release-id
+              - '{{job.parameters.release_id}}'
+              - --warehouse-id
+              - ${resources.sql_warehouses.demo_warehouse.id}
+              - --lakebase-endpoint
+              - ${resources.postgres_projects.steward_db.name}/branches/production/endpoints/primary
+              - --steward-app
+              - ${resources.apps.steward.name}
+              - --steward-dir
+              - ${workspace.file_path}/apps/steward
+        - task_key: refresh_explainer
+          depends_on: [{task_key: publish_gold}]
+          environment_key: steward
+          timeout_seconds: 1800
+          spark_python_task:
+            python_file: ../tasks/refresh_explainer.py
+            parameters:
+              - --catalog
+              - ${var.catalog}
+              - --release-id
+              - '{{job.parameters.release_id}}'
+              - --warehouse-id
+              - ${resources.sql_warehouses.demo_warehouse.id}
+              - --presenter-app
+              - ${resources.apps.presenter.name}
+              - --presenter-dir
+              - ${workspace.file_path}/apps/identity-presenter

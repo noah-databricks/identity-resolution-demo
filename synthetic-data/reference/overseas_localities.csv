@@ -1,0 +1,94 @@
+overseas_key,country,city,suburb,region,postcode,culture,phone_cc,streets,weight,lo,hi
+NZ-00,NZ,Auckland,Ponsonby,Auckland,1011,anglo,+64,Ponsonby Road|Franklin Road|Richmond Road|Jervois Road,2.5,0,390622
+NZ-01,NZ,Auckland,Herne Bay,Auckland,1011,anglo,+64,Jervois Road|Sentinel Road|Marine Parade,1.5,390622,624996
+NZ-02,NZ,Auckland,Parnell,Auckland,1052,anglo,+64,Parnell Road|St Stephens Avenue|Brighton Road,2,624996,937494
+NZ-03,NZ,Auckland,Remuera,Auckland,1050,anglo,+64,Remuera Road|Victoria Avenue|Upland Road,2,937494,1249992
+NZ-04,NZ,Auckland,Grey Lynn,Auckland,1021,anglo,+64,Great North Road|Williamson Avenue|Surrey Crescent,1.5,1249992,1484366
+NZ-05,NZ,Auckland,Mount Eden,Auckland,1024,anglo,+64,Mount Eden Road|Dominion Road|Valley Road,1.5,1484366,1718740
+NZ-06,NZ,Auckland,Takapuna,Auckland,0622,anglo,+64,Hurstmere Road|Lake Road|The Strand,1.5,1718740,1953114
+NZ-07,NZ,Auckland,Devonport,Auckland,0624,anglo,+64,Victoria Road|King Edward Parade|Church Street,1,1953114,2109364
+NZ-08,NZ,Wellington,Te Aro,Wellington,6011,anglo,+64,Cuba Street|Willis Street|Taranaki Street,1.5,2109364,2343738
+NZ-09,NZ,Wellington,Thorndon,Wellington,6011,anglo,+64,Tinakori Road|Hill Street,1,2343738,2499988
+NZ-10,NZ,Wellington,Kelburn,Wellington,6012,anglo,+64,Upland Road|Glasgow Street|Kelburn Parade,0.8,2499988,2624988
+NZ-11,NZ,Christchurch,Strowan,Canterbury,8014,anglo,+64,Papanui Road|Office Road|Rossall Street,0.8,2624988,2749988
+NZ-12,NZ,Christchurch,Fendalton,Canterbury,8041,anglo,+64,Fendalton Road|Clyde Road|Memorial Avenue,0.7,2749988,2859363
+NZ-13,NZ,Queenstown,Queenstown,Otago,9300,anglo,+64,Shotover Street|Camp Street|Beach Street,0.8,2859363,2984363
+GB-14,GB,London,Islington,Greater London,N1 8EA,anglo,+44,Upper Street|Essex Road|Liverpool Road,1.5,2984363,3218737
+GB-15,GB,London,Clapham,Greater London,SW4 7AA,anglo,+44,Clapham High Street|Abbeville Road|Northcote Road,1.5,3218737,3453111
+GB-16,GB,London,Notting Hill,Greater London,W11 2BS,anglo,+44,Portobello Road|Ledbury Road|Westbourne Grove,1,3453111,3609361
+GB-17,GB,London,Shoreditch,Greater London,E2 7DJ,anglo,+44,Columbia Road|Hackney Road|Redchurch Street,1,3609361,3765611
+GB-18,GB,London,Fulham,Greater London,SW6 4HJ,anglo,+44,Fulham Road|Munster Road|New Kings Road,1.2,3765611,3953110
+GB-19,GB,London,Battersea,Greater London,SW11 1HH,anglo,+44,Battersea Park Road|Lavender Hill|Northcote Road,1,3953110,4109360
+GB-20,GB,London,Hampstead,Greater London,NW3 1QE,anglo,+44,Heath Street|Flask Walk|Belsize Lane,0.8,4109360,4234360
+GB-21,GB,London,Wimbledon,Greater London,SW19 5AE,anglo,+44,The Broadway|Worple Road|High Street,0.8,4234360,4359360
+GB-22,GB,London,Greenwich,Greater London,SE10 9HT,anglo,+44,Trafalgar Road|Royal Hill|Crooms Hill,0.6,4359360,4453110
+GB-23,GB,Manchester,Didsbury,Greater Manchester,M20 6RL,anglo,+44,Wilmslow Road|Barlow Moor Road,0.8,4453110,4578110
+GB-24,GB,Edinburgh,Stockbridge,Scotland,EH3 6SS,anglo,+44,Raeburn Place|Comely Bank Road,0.8,4578110,4703110
+GB-25,GB,Bristol,Clifton,Bristol,BS8 4AA,anglo,+44,Whiteladies Road|Princess Victoria Street,0.6,4703110,4796860
+IE-26,IE,Dublin,Ranelagh,Dublin,D06 F9C7,anglo,+353,Ranelagh Road|Sandford Road|Charleston Road,1,4796860,4953109
+IE-27,IE,Dublin,Sandymount,Dublin,D04 V1W8,anglo,+353,Sandymount Road|Gilford Road|Strand Road,0.7,4953109,5062484
+IE-28,IE,Cork,Douglas,Cork,T12 X2N7,anglo,+353,Douglas Road|Well Road,0.4,5062484,5124984
+US-29,US,New York,Brooklyn,NY,11215,anglo,+1,7th Avenue|Prospect Park West|5th Avenue,1.2,5124984,5312483
+US-30,US,New York,Williamsburg,NY,11211,anglo,+1,Bedford Avenue|North 6th Street|Kent Avenue,0.8,5312483,5437483
+US-31,US,New York,West Village,NY,10014,anglo,+1,Bleecker Street|Hudson Street|Greenwich Avenue,1,5437483,5593732
+US-32,US,New York,Upper East Side,NY,10021,anglo,+1,East 72nd Street|Lexington Avenue|Park Avenue,0.6,5593732,5687482
+US-33,US,San Francisco,Mission District,CA,94110,anglo,+1,Valencia Street|Guerrero Street|Dolores Street,0.8,5687482,5812482
+US-34,US,San Francisco,Noe Valley,CA,94114,anglo,+1,24th Street|Church Street|Castro Street,0.5,5812482,5890607
+US-35,US,Los Angeles,Santa Monica,CA,90401,anglo,+1,Ocean Avenue|Wilshire Boulevard|Montana Avenue,0.8,5890607,6015607
+US-36,US,Los Angeles,Venice,CA,90291,anglo,+1,Abbot Kinney Boulevard|Rose Avenue|Main Street,0.5,6015607,6093732
+US-37,US,Seattle,Capitol Hill,WA,98102,anglo,+1,Broadway East|East Pike Street|15th Avenue East,0.4,6093732,6156232
+CA-38,CA,Vancouver,Kitsilano,BC,V6K 1P4,anglo,+1,West 4th Avenue|Cornwall Avenue|Yew Street,0.8,6156232,6281232
+CA-39,CA,Vancouver,Yaletown,BC,V6B 2Z9,anglo,+1,Hamilton Street|Mainland Street|Davie Street,0.5,6281232,6359357
+CA-40,CA,Toronto,The Annex,ON,M5R 1Y6,anglo,+1,Bloor Street West|Brunswick Avenue,0.6,6359357,6453107
+ZA-41,ZA,Cape Town,Sea Point,Western Cape,8005,anglo,+27,Main Road|Beach Road|Regent Road,0.6,6453107,6546857
+ZA-42,ZA,Johannesburg,Parkhurst,Gauteng,2193,anglo,+27,4th Avenue|14th Street,0.4,6546857,6609357
+SG-43,SG,Singapore,Tiong Bahru,Singapore,160057,chinese,+65,Tiong Bahru Road|Seng Poh Road|Eng Hoon Street,0.9,6609357,6749982
+SG-44,SG,Singapore,Tanjong Pagar,Singapore,088450,chinese,+65,Tanjong Pagar Road|Neil Road|Craig Road,0.8,6749982,6874982
+SG-45,SG,Singapore,Holland Village,Singapore,278967,chinese,+65,Lorong Liput|Holland Avenue|Jalan Merah Saga,0.6,6874982,6968732
+SG-46,SG,Singapore,Bukit Timah,Singapore,259760,chinese,+65,Bukit Timah Road|Dunearn Road|Jalan Kampong Chantek,0.6,6968732,7062482
+SG-47,SG,Singapore,Katong,Singapore,428788,chinese,+65,East Coast Road|Joo Chiat Road|Marine Parade Road,0.5,7062482,7140607
+HK-48,HK,Hong Kong,Mid-Levels,Hong Kong Island,,chinese,+852,Robinson Road|Conduit Road|Caine Road,0.9,7140607,7281232
+HK-49,HK,Hong Kong,Causeway Bay,Hong Kong Island,,chinese,+852,Hennessy Road|Leighton Road|Paterson Street,0.6,7281232,7374982
+HK-50,HK,Hong Kong,Tsim Sha Tsui,Kowloon,,chinese,+852,Nathan Road|Canton Road|Granville Road,0.6,7374982,7468732
+HK-51,HK,Hong Kong,Sai Kung,New Territories,,chinese,+852,Hiram's Highway|Po Tung Road,0.4,7468732,7531232
+CN-52,CN,Shanghai,Xuhui,Shanghai,200030,chinese,+86,Hengshan Road|Wukang Road|Tianping Road,0.7,7531232,7640607
+CN-53,CN,Shanghai,Jing'an,Shanghai,200040,chinese,+86,Nanjing West Road|Yuyuan Road|Changde Road,0.5,7640607,7718732
+CN-54,CN,Beijing,Chaoyang,Beijing,100020,chinese,+86,Guanghua Road|Dongsanhuan Road,0.5,7718732,7796857
+CN-55,CN,Shenzhen,Nanshan,Guangdong,518052,chinese,+86,Shennan Boulevard|Keyuan Road,0.3,7796857,7843733
+TW-56,TW,Taipei,Da'an,Taipei,106,chinese,+886,Zhongxiao East Road|Dunhua South Road|Xinyi Road,0.4,7843733,7906233
+KR-57,KR,Seoul,Gangnam-gu,Seoul,06236,korean,+82,Teheran-ro|Gangnam-daero|Nonhyeon-ro,0.7,7906233,8015608
+KR-58,KR,Seoul,Mapo-gu,Seoul,04038,korean,+82,Yanghwa-ro|Wausan-ro,0.5,8015608,8093733
+KR-59,KR,Seoul,Yongsan-gu,Seoul,04350,korean,+82,Itaewon-ro|Hangang-daero,0.3,8093733,8140609
+KR-60,KR,Busan,Haeundae-gu,Busan,48094,korean,+82,Haeundaehaebyeon-ro|Gunam-ro,0.2,8140609,8171860
+JP-61,JP,Tokyo,Shibuya,Tokyo,150-0002,japanese,+81,Meiji-dori|Aoyama-dori|Omotesando,0.6,8171860,8265610
+JP-62,JP,Tokyo,Minato,Tokyo,106-0032,japanese,+81,Roppongi-dori|Gaien-higashi-dori,0.5,8265610,8343735
+JP-63,JP,Osaka,Kita-ku,Osaka,530-0001,japanese,+81,Umeda|Midosuji,0.4,8343735,8406235
+JP-64,JP,Kyoto,Nakagyo-ku,Kyoto,604-8005,japanese,+81,Kawaramachi-dori|Oike-dori,0.2,8406235,8437486
+IN-65,IN,Mumbai,Bandra West,Maharashtra,400050,indian,+91,Hill Road|Linking Road|Carter Road,0.5,8437486,8515611
+IN-66,IN,Bengaluru,Indiranagar,Karnataka,560038,indian,+91,100 Feet Road|CMH Road,0.4,8515611,8578111
+IN-67,IN,New Delhi,Vasant Vihar,Delhi,110057,indian,+91,Poorvi Marg|Paschimi Marg,0.3,8578111,8624987
+IT-68,IT,Milan,Brera,Lombardy,20121,italian,+39,Via Solferino|Corso Garibaldi|Via Brera,0.5,8624987,8703112
+IT-69,IT,Rome,Trastevere,Lazio,00153,italian,+39,Viale di Trastevere|Via della Lungaretta,0.4,8703112,8765612
+IT-70,IT,Florence,Oltrarno,Tuscany,50125,italian,+39,Via Maggio|Borgo San Frediano,0.2,8765612,8796863
+GR-71,GR,Athens,Kolonaki,Attica,106 73,greek,+30,Skoufa|Tsakalof|Patriarchou Ioakeim,0.4,8796863,8859363
+GR-72,GR,Thessaloniki,Kalamaria,Central Macedonia,551 33,greek,+30,Komninon|Metamorfoseos,0.2,8859363,8890614
+DE-73,DE,Berlin,Prenzlauer Berg,Berlin,10405,german,+49,Kastanienallee|Schonhauser Allee|Danziger Strasse,0.5,8890614,8968739
+DE-74,DE,Munich,Schwabing,Bavaria,80802,german,+49,Leopoldstrasse|Hohenzollernstrasse,0.4,8968739,9031239
+DE-75,DE,Hamburg,Eimsbuttel,Hamburg,20259,german,+49,Osterstrasse|Eppendorfer Weg,0.3,9031239,9078115
+FR-76,FR,Paris,Le Marais,Ile-de-France,75004,french,+33,Rue de Rivoli|Rue des Francs-Bourgeois|Rue Vieille du Temple,0.5,9078115,9156240
+FR-77,FR,Paris,Saint-Germain-des-Pres,Ile-de-France,75006,french,+33,Rue du Four|Boulevard Saint-Germain|Rue de Seine,0.4,9156240,9218740
+NL-78,NL,Amsterdam,De Pijp,North Holland,1072 LH,dutch,+31,Ferdinand Bolstraat|Albert Cuypstraat,0.5,9218740,9296865
+NL-79,NL,Amsterdam,Jordaan,North Holland,1015 DS,dutch,+31,Westerstraat|Rozengracht|Prinsengracht,0.3,9296865,9343741
+ES-80,ES,Barcelona,Eixample,Catalonia,08008,spanish,+34,Carrer de Mallorca|Passeig de Gracia,0.5,9343741,9421866
+ES-81,ES,Madrid,Salamanca,Community of Madrid,28001,spanish,+34,Calle de Serrano|Calle de Velazquez,0.3,9421866,9468742
+ID-82,ID,Jakarta,Menteng,DKI Jakarta,10310,indonesian,+62,Jalan Cikini Raya|Jalan Teuku Umar,0.4,9468742,9531242
+ID-83,ID,Bali,Seminyak,Bali,80361,indonesian,+62,Jalan Kayu Aya|Jalan Petitenget,0.3,9531242,9578118
+PH-84,PH,Manila,Makati,Metro Manila,1226,filipino,+63,Ayala Avenue|Paseo de Roxas,0.5,9578118,9656243
+PH-85,PH,Manila,Bonifacio Global City,Metro Manila,1634,filipino,+63,5th Avenue|32nd Street,0.3,9656243,9703119
+VN-86,VN,Ho Chi Minh City,District 1,Ho Chi Minh City,700000,vietnamese,+84,Dong Khoi|Le Loi|Nguyen Hue,0.4,9703119,9765619
+VN-87,VN,Hanoi,Hoan Kiem,Hanoi,100000,vietnamese,+84,Hang Bai|Trang Tien,0.2,9765619,9796870
+AE-88,AE,Dubai,Dubai Marina,Dubai,,lebanese,+971,Marina Walk|Al Marsa Street,0.3,9796870,9843746
+LB-89,LB,Beirut,Achrafieh,Beirut,,lebanese,+961,Rue Sursock|Rue Monot,0.2,9843746,9874997
+PT-90,PT,Lisbon,Principe Real,Lisbon,1250-096,portuguese,+351,Rua da Escola Politecnica|Rua Dom Pedro V,0.3,9874997,9921873
+HR-91,HR,Zagreb,Donji Grad,Zagreb,10000,croatian,+385,Ilica|Masarykova,0.2,9921873,9953124
+TR-92,TR,Istanbul,Besiktas,Istanbul,34353,turkish,+90,Barbaros Bulvari|Ihlamurdere Caddesi,0.3,9953124,10000000

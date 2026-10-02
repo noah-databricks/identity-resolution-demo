@@ -1,0 +1,343 @@
+employer_key,company_name,domain,email_pattern,office_line1,office_suburb,office_state,office_postcode,area_code,weight,lo,hi
+0,Pacific Events,pacificevents.com.au,first.last,88 Pitt Street,Sydney,NSW,2000,2,0,-1,-1
+1,Workspace,workspace.com,first.last,"Level 3, 11 York Street",Sydney,NSW,2000,2,0,-1,-1
+2,Macleay Consulting,macleayconsulting.com.au,first.last,"Level 5, 346 Pacific Highway",North Sydney,NSW,2060,2,0.00746269,0,17211
+3,Brightwater Insurance,brightwaterinsurance.com.au,first.last,"Level 14, 192 Church Street",Parramatta,NSW,2150,2,0.00609756,17211,31274
+4,Sandstone Property,sandstoneproperty.com.au,first.last,402 Sussex Street,Sydney,NSW,2000,2,0.00943396,31274,53032
+5,Lighthouse Hospitality,lighthousehospitality.com.au,first.last,"Level 15, 351 Castlereagh Street",Sydney,NSW,2000,2,0.0175439,53032,93493
+6,Pacific Property,pacificproperty.com.au,first.last,"Level 10, 291 Hassall Street",Parramatta,NSW,2150,2,0.0238095,93493,148404
+7,Wharf Media,wharf.com.au,first,"Level 37, 368 Castlereagh Street",Sydney,NSW,2000,2,0.0204082,148404,195470
+8,Northgate Construction,northgateconstruction.com.au,first.last,"Level 35, 252 Queen Street",Brisbane City,QLD,4000,7,0.00595238,195470,209198
+9,Westbury Architects,westburyarchitects.com.au,firstl,"Level 26, 167 Kent Street",Sydney,NSW,2000,2,0.00324675,209198,216687
+10,Tasman Recruitment,tasman.com.au,first.last,373 Eagle Street,Brisbane City,QLD,4000,7,0.00316456,216687,223986
+11,Hawthorn Accountants,hawthornaccountants.com,first,"Level 4, 99 Queen Street",Melbourne,VIC,3000,3,0.00892857,223986,244578
+12,Granite Energy,graniteenergy.com.au,first.last,"Level 31, 373 Marcus Clarke Street",Canberra,ACT,2601,2,0.00378788,244578,253315
+13,Harbour Education,harboureducation.com.au,first.last,"Level 35, 285 King Street",Newcastle,NSW,2300,2,0.00353357,253315,261465
+14,Jarrah Pharmacy,jarrah.com.au,flast,"Level 16, 250 Castlereagh Street",Sydney,NSW,2000,2,0.00534759,261465,273799
+15,Summit Accountants,summitaccountants.com.au,first.last,"Level 25, 126 Hunter Street",Sydney,NSW,2000,2,0.0192308,273799,318150
+16,Harbour Finance,harbourfinance.com.au,first.last,"Level 23, 208 Pitt Street",Sydney,NSW,2000,2,0.00292398,318150,324894
+17,Coastline Engineering,coastlineeng.com.au,flast,411 King Street,Newcastle,NSW,2300,2,0.00371747,324894,333468
+18,Vantage Consulting,vantageconsulting.com.au,flast,"Level 3, 130 Waterloo Road",Macquarie Park,NSW,2113,2,0.00306748,333468,340543
+19,Vantage Medical,vantagemedical.com.au,first.last,"Level 35, 230 Help Street",Chatswood,NSW,2067,2,0.00584795,340543,354031
+20,Northwind Media,northwindmedia.com.au,first.last,"Level 6, 155 George Street",Parramatta,NSW,2150,2,0.00330033,354031,361643
+21,Wattle Accountants,wattleaccountants.com.au,first.last,"Level 27, 27 Khartoum Road",Macquarie Park,NSW,2113,2,0.0285714,361643,427536
+22,Tasman Software,tasmansoftware.com.au,first.last,"Level 3, 41 Pitt Street",Sydney,NSW,2000,2,0.0166667,427536,465974
+23,Unity Group,unitygroup.com.au,first.last,"Level 4, 202 York Street",Sydney,NSW,2000,2,0.0188679,465974,509488
+24,Longreach Energy,longreachenergy.com.au,first.last,"Level 24, 157 Castlereagh Street",Sydney,NSW,2000,2,0.0128205,509488,539056
+25,Terrace Partners,terracepartners.com.au,last.first,"Level 26, 241 Bourke Road",Mascot,NSW,2020,2,0.0666667,539056,692804
+26,Barton Education,bartoneducation.com,flast,"Level 25, 390 Castlereagh Street",Sydney,NSW,2000,2,0.00641026,692804,707588
+27,Brightwater Recruitment,brightwaterrecruitment.com.au,first.last,"Level 19, 131 Bligh Street",Sydney,NSW,2000,2,0.0178571,707588,748771
+28,Beacon Medical,beaconmedical.com.au,first.last,"Level 16, 27 Pitt Street",Sydney,NSW,2000,2,0.0169492,748771,787860
+29,Jetty Education,jettyeducation.com.au,first.last,"Level 5, 315 Wattle Street",Ultimo,NSW,2007,2,0.00469484,787860,798688
+30,Laneway Dental,lanewaydental.com.au,first.last,"Level 2, 106 York Street",Sydney,NSW,2000,2,0.00657895,798688,813861
+31,Sandstone Accountants,sandstoneaccountants.com.au,first.last,"Level 38, 190 Queen Street",Melbourne,VIC,3000,3,0.00662252,813861,829135
+32,Tidewater Legal,tidewaterlegal.com.au,first.last,"Level 5, 292 O'Riordan Street",Mascot,NSW,2020,2,0.0117647,829135,856268
+33,Isthmus Engineering,isthmuseng.com.au,first.last,"Level 9, 90 Crown Street",Surry Hills,NSW,2010,2,0.0030303,856268,863257
+34,Juniper Consulting,juniperconsulting.com.au,first.last,"Level 12, 299 York Street",Sydney,NSW,2000,2,0.00680272,863257,878946
+35,Coastline Software,coastlinesoftware.com.au,first,"Level 5, 211 Miller Street",Pyrmont,NSW,2009,2,0.00403226,878946,888246
+36,Tasman Dental,tasmandental.com.au,first.last,"Level 14, 213 Harris Street",Ultimo,NSW,2007,2,0.0126582,888246,917439
+37,Headland Construction,headlandcon.com.au,first.last,"Level 9, 225 Pacific Highway",North Sydney,NSW,2060,2,0.00862069,917439,937321
+38,Highline Property,highlineproperty.com.au,first,"Level 23, 218 Bourke Road",Alexandria,NSW,2015,2,0.00398406,937321,946510
+39,Macleay Logistics,macleaylog.com.au,first.last,"Level 4, 149 Collins Street",Melbourne,VIC,3000,3,0.0142857,946510,979457
+40,Inlet Software,inletsoftware.com,first.last,"Level 21, 29 Market Street",Sydney,NSW,2000,2,0.00319489,979457,986826
+41,Flinders Legal,flinderslegal.com.au,first.last,"Level 39, 322 Commonwealth Street",Surry Hills,NSW,2010,2,0.0357143,986826,1069192
+42,Oakridge Accountants,oakridgeacc.com.au,first.last,"Level 23, 364 Waterloo Road",Macquarie Park,NSW,2113,2,0.0035461,1069192,1077371
+43,Wharf Labs,wharflabs.com.au,firstlast,"Level 32, 62 Elizabeth Street",Sydney,NSW,2000,2,0.00724638,1077371,1094084
+44,Delta Labs,deltalabs.com.au,first.last,"Level 25, 312 Miller Street",Pyrmont,NSW,2009,2,0.0344828,1094084,1173609
+45,Coastline Dental,coastlinedental.com.au,first.last,"Level 22, 317 Market Street",Sydney,NSW,2000,2,0.00342466,1173609,1181508
+46,Upland Wealth,uplandwealth.com.au,first.last,"Level 18, 29 Pitt Street",Sydney,NSW,2000,2,0.00346021,1181508,1189489
+47,Crestwood Energy,crestwoodenergy.com.au,first.last,"Level 23, 269 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00456621,1189489,1200021
+48,Kingsford Hospitality,kingsfordhospitality.com.au,first.last,"Level 8, 288 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00318471,1200021,1207367
+49,Tidewater Group,tidewatergroup.com,first.last,"Level 39, 375 York Street",Sydney,NSW,2000,2,0.00460829,1207367,1217996
+50,Unity Hospitality,unityhospitality.com.au,first_last,"Level 32, 332 York Street",Sydney,NSW,2000,2,0.010989,1217996,1243340
+51,Ridgeline Insurance,ridgelineinsurance.com.au,firstlast,"Level 12, 110 Cleveland Street",Surry Hills,NSW,2010,2,0.025641,1243340,1302475
+52,Zenith Energy,zenithenergy.com.au,first.last,"Level 16, 318 Miller Street",North Sydney,NSW,2060,2,0.00413223,1302475,1312006
+53,Emerald Wealth,emeraldwealth.com.au,first.last,"Level 16, 35 Elizabeth Street",Sydney,NSW,2000,2,0.00757576,1312006,1329478
+54,Ironbark Group,ironbarkgroup.com.au,firstlast,"Level 4, 120 Union Street",Pyrmont,NSW,2009,2,0.0108696,1329478,1354546
+55,Eastbrook Property,eastbrookproperty.com.au,firstl,"Level 34, 357 Foveaux Street",Surry Hills,NSW,2010,2,0.00454545,1354546,1365030
+56,Eastbrook Insurance,eastbrookinsurance.com.au,flast,"Level 2, 24 Queen Street",Melbourne,VIC,3000,3,0.00884956,1365030,1385440
+57,Pinnacle Pharmacy,pinnacle.com.au,first.last,"Level 20, 120 O'Riordan Street",Mascot,NSW,2020,2,0.00358423,1385440,1393707
+58,Sandstone Design,sandstonedesign.com,first.last,"Level 3, 133 Miller Street",North Sydney,NSW,2060,2,0.00411523,1393707,1403199
+59,Harbour Studio,harbourstudio.com.au,firstl,"Level 17, 200 Clarence Street",Sydney,NSW,2000,2,0.0031746,1403199,1410521
+60,Greenway Hospitality,greenwayhospitality.com.au,first.last,"Level 22, 408 Jones Street",Ultimo,NSW,2007,2,0.0075188,1410521,1427862
+61,Quarry Medical,quarrymedical.com.au,first.last,"Level 7, 242 Elizabeth Street",Sydney,NSW,2000,2,0.00462963,1427862,1438540
+62,Clearwater Group,clearwatergro.com.au,flast,"Level 8, 285 Miller Street",North Sydney,NSW,2060,2,0.00684932,1438540,1454337
+63,Longreach Technology,longreachtech.com,first.last,"Level 30, 213 Church Street",Parramatta,NSW,2150,2,0.00327869,1454337,1461899
+64,Paperbark Hospitality,paperbark.com.au,first.last,"Level 28, 302 Euston Road",Alexandria,NSW,2015,2,0.0181818,1461899,1503831
+65,Anchor Studio,anchorstudio.com,flast,"Level 30, 236 William Street",Melbourne,VIC,3000,3,0.0277778,1503831,1567893
+66,Laneway Pharmacy,lanewaypharmacy.com.au,flast,"Level 21, 237 Kent Street",Sydney,NSW,2000,2,0.00387597,1567893,1576833
+67,Pinnacle Design,pinnacledesign.com.au,first.last,"Level 17, 176 Hunter Street",Sydney,NSW,2000,2,0.00420168,1576833,1586524
+68,Saltbush Partners,saltbushpartners.com.au,first.last,"Level 16, 56 George Street",Sydney,NSW,2000,2,0.00980392,1586524,1609135
+69,Unity Construction,unityconstruction.com.au,first_last,"Level 13, 159 Coward Street",Mascot,NSW,2020,2,0.0045045,1609135,1619524
+70,Ridgeline Accountants,ridgelineaccountants.com.au,first.last,"Level 22, 287 Wattle Street",Ultimo,NSW,2007,2,0.0116279,1619524,1646341
+71,Circular Insurance,circularinsurance.com.au,first.last,"Level 17, 305 Pacific Highway",North Sydney,NSW,2060,2,0.1,1646341,1876963
+72,Driftwood Software,driftwood.com.au,first.last,"Level 10, 196 Bourke Street",Melbourne,VIC,3000,3,0.0125,1876963,1905792
+73,Eastbrook Studio,eastbrookstudio.com.au,firstlast,"Level 14, 80 William Street",Melbourne,VIC,3000,3,0.00429185,1905792,1915691
+74,Meridian Media,meridianmedia.com.au,flast,"Level 21, 71 Pirie Street",Adelaide,SA,5000,8,0.00571429,1915691,1928870
+75,Beacon Engineering,beaconeng.com.au,first.last,"Level 15, 172 Walker Street",North Sydney,NSW,2060,2,0.00625,1928870,1943285
+76,Northgate Recruitment,northgate.com.au,flast,"Level 9, 104 Smith Street",Parramatta,NSW,2150,2,0.0208333,1943285,1991332
+77,Ivory Recruitment,ivoryrec.com.au,first_last,"Level 23, 414 Smith Street",Parramatta,NSW,2150,2,0.166667,1991332,2375701
+78,Mosaic Group,mosaicgroup.com,first.last,"Level 20, 42 Elizabeth Street",Sydney,NSW,2000,2,0.0119048,2375701,2403157
+79,Sapphire Recruitment,sapphirerecruitment.com.au,first.last,"Level 28, 312 George Street",Sydney,NSW,2000,2,0.00389105,2403157,2412132
+80,Barton Insurance,bartoninsurance.com.au,firstlast,"Level 24, 374 George Street",Parramatta,NSW,2150,2,0.00793651,2412132,2430436
+81,Unity Studio,unitystu.com.au,first.last,"Level 19, 46 Hunter Street",Sydney,NSW,2000,2,0.00689655,2430436,2446342
+82,Vantage Design,vantagedesign.com.au,first.last,"Level 39, 183 Collins Street",Melbourne,VIC,3000,3,0.0144928,2446342,2479766
+83,Isthmus Health,isthmushealth.com,first.last,"Level 4, 128 Pacific Highway",St Leonards,NSW,2065,2,0.00310559,2479766,2486929
+84,Ember Pharmacy,emberpharmacy.com,first.last,"Level 19, 18 Castlereagh Street",Sydney,NSW,2000,2,0.00833333,2486929,2506148
+85,Ironbark Accountants,ironbark.com.au,first.last,"Level 32, 13 Market Street",Sydney,NSW,2000,2,0.00295858,2506148,2512972
+86,Juniper Dental,juniperdental.com.au,flast,"Level 13, 71 Flinders Lane",Melbourne,VIC,3000,3,0.00367647,2512972,2521452
+87,Driftwood Education,driftwoodeducation.com.au,firstlast,"Level 8, 236 Clarence Street",Sydney,NSW,2000,2,0.00645161,2521452,2536332
+88,Ironbark Health,ironbarkhealth.com.au,first.last,"Level 31, 279 Hunter Street",Sydney,NSW,2000,2,0.0104167,2536332,2560356
+89,Beacon Recruitment,beaconrecruitment.com.au,first.last,"Level 10, 340 King Street",Newcastle,NSW,2300,2,0.00628931,2560356,2574861
+90,Bondi Education,bondieducation.com.au,first.last,"Level 37, 320 Bligh Street",Sydney,NSW,2000,2,0.0030581,2574861,2581915
+91,Bellwether Wealth,bellwetherwealth.com,first.last,"Level 17, 226 Bourke Road",Mascot,NSW,2020,2,0.0070922,2581915,2598272
+92,Isthmus Media,isthmusmedia.com.au,first.last,"Level 5, 209 Cleveland Street",Surry Hills,NSW,2010,2,0.00497512,2598272,2609747
+93,Unity Labs,unitylabs.com.au,first.last,"Level 27, 383 Euston Road",Alexandria,NSW,2015,2,0.00458716,2609747,2620327
+94,Tasman Medical,tasmanmedical.com,last.first,"Level 20, 166 George Street",Sydney,NSW,2000,2,0.010101,2620327,2643623
+95,Upland Technology,uplandtech.com.au,first.last,"Level 39, 388 Bligh Street",Sydney,NSW,2000,2,0.0454545,2643623,2748452
+96,Circular Realty,circular.com.au,first.last,"Level 36, 193 Berry Street",North Sydney,NSW,2060,2,0.00355872,2748452,2756660
+97,Bellwether Architects,bellwetherarchitects.com.au,first.last,"Level 39, 216 Macquarie Street",Sydney,NSW,2000,2,0.0294118,2756660,2824491
+98,Quarry Legal,quarrylegal.com.au,first_last,"Level 9, 276 Pacific Highway",North Sydney,NSW,2060,2,0.0222222,2824491,2875741
+99,Bellwether Insurance,bellwetherinsurance.com.au,first.last,"Level 8, 188 Pacific Highway",St Leonards,NSW,2065,2,0.0103093,2875741,2899517
+100,Bellwether Studio,bellwetherstudio.com.au,first,"Level 34, 148 Walker Street",North Sydney,NSW,2060,2,0.00636943,2899517,2914207
+101,Pacific Construction,pacificcon.com.au,first.last,"Level 12, 77 Market Street",Sydney,NSW,2000,2,0.00321543,2914207,2921623
+102,Pinnacle Insurance,pinnacleinsurance.com,first.last,"Level 30, 378 Berry Street",North Sydney,NSW,2060,2,0.00531915,2921623,2933891
+103,Beacon Legal,beaconlegal.com.au,first.last,"Level 25, 199 York Street",Sydney,NSW,2000,2,0.0034965,2933891,2941956
+104,Northgate Property,northgateproperty.com.au,first,"Level 27, 284 George Street",Sydney,NSW,2000,2,0.00414938,2941956,2951526
+105,Saltbush Media,saltbushmedia.com.au,first.last,"Level 10, 261 Macquarie Street",Sydney,NSW,2000,2,0.00340136,2951526,2959371
+106,Paperbark Recruitment,paperbarkrecruitment.com.au,first.last,"Level 20, 110 Northbourne Avenue",Canberra,ACT,2601,2,0.00302115,2959371,2966339
+107,Jetty Pharmacy,jettypharmacy.com.au,firstlast,"Level 30, 88 Collins Street",Melbourne,VIC,3000,3,0.00775194,2966339,2984218
+108,Pinnacle Energy,pinnacleenergy.com.au,first.last,"Level 29, 132 George Street",Parramatta,NSW,2150,2,0.111111,2984218,3240464
+109,Kestrel Group,kestrelgroup.com.au,first.last,"Level 29, 302 Waterloo Road",Macquarie Park,NSW,2113,2,0.142857,3240464,3569923
+110,Sapphire Technology,sapphiretech.com,first.last,"Level 18, 387 Wattle Street",Ultimo,NSW,2007,2,0.0147059,3569923,3603839
+111,Upland Group,uplandgroup.com.au,firstlast,"Level 6, 171 Sussex Street",Sydney,NSW,2000,2,0.00909091,3603839,3624806
+112,Kurrajong Advisory,kurrajongadvisory.com.au,first.last,"Level 14, 324 Harris Street",Pyrmont,NSW,2009,2,0.0102041,3624806,3648340
+113,Fairweather Property,fairweatherproperty.com.au,first.last,"Level 35, 398 Crown Street",Surry Hills,NSW,2010,2,0.00296736,3648340,3655184
+114,Saltbush Medical,saltbushmedical.com.au,first,"Level 9, 130 Pitt Street",Sydney,NSW,2000,2,0.00436681,3655184,3665256
+115,Northwind Group,northwindgroup.com.au,first.last,"Level 10, 60 Crown Street",Surry Hills,NSW,2010,2,0.0625,3665256,3809395
+116,Kestrel Design,kestreldesign.com.au,flast,"Level 15, 82 Castlereagh Street",Sydney,NSW,2000,2,0.00564972,3809395,3822425
+117,Driftwood Construction,driftwoodconstruction.com,first,"Level 18, 343 Eagle Street",Brisbane City,QLD,4000,7,0.04,3822425,3914674
+118,Ivory Education,ivoryeducation.com.au,first.last,"Level 22, 213 Queen Street",Brisbane City,QLD,4000,7,0.0555556,3914674,4042798
+119,Rosewood Dental,rosewooddental.com,first.last,"Level 12, 274 Pyrmont Street",Pyrmont,NSW,2009,2,0.00826446,4042798,4061859
+120,Isthmus Wealth,isthmuswealth.com.au,first.last,"Level 27, 285 Sussex Street",Sydney,NSW,2000,2,0.0322581,4061859,4136254
+121,Nimbus Consulting,nimbusconsulting.com.au,first.last,"Level 7, 410 Foveaux Street",Surry Hills,NSW,2010,2,0.00558659,4136254,4149139
+122,Saltbush Dental,saltbushdental.com.au,first.last,"Level 30, 49 Castlereagh Street",Sydney,NSW,2000,2,0.00952381,4149139,4171104
+123,Crestwood Labs,crestwoodlabs.com.au,first.last,"Level 27, 226 Pacific Highway",St Leonards,NSW,2065,2,0.00297619,4171104,4177969
+124,Cornerstone Logistics,cornerstonelogistics.com.au,firstl,"Level 36, 103 Commonwealth Street",Surry Hills,NSW,2010,2,0.00393701,4177969,4187050
+125,Saltbush Insurance,saltbushinsurance.com.au,last.first,"Level 16, 194 Bligh Street",Sydney,NSW,2000,2,0.00357143,4187050,4195287
+126,Zenith Design,zenithdesign.com.au,first.last,"Level 3, 113 Hassall Street",Parramatta,NSW,2150,2,0.0140845,4195287,4227770
+127,Eucalypt Wealth,eucalyptwealth.com.au,flast,"Level 31, 153 Market Street",Sydney,NSW,2000,2,0.037037,4227770,4313186
+128,Beacon Health,beaconhealth.com.au,flast,"Level 16, 149 William Street",Melbourne,VIC,3000,3,0.0263158,4313186,4373877
+129,Summit Hospitality,summithospitality.com.au,first.last,"Level 19, 43 Bligh Street",Sydney,NSW,2000,2,0.00529101,4373877,4386080
+130,Meridian Labs,meridianlabs.com,first.last,327 York Street,Sydney,NSW,2000,2,0.00326797,4386080,4393618
+131,Cornerstone Health,cornerstonehea.com.au,first.last,"Level 32, 363 Bligh Street",Sydney,NSW,2000,2,0.00348432,4393618,4401655
+132,Kingsford Technology,kingsfordtech.com.au,last.first,"Level 29, 146 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00471698,4401655,4412534
+133,Rosewood Wealth,rosewoodwea.com.au,first.last,"Level 39, 19 Castlereagh Street",Sydney,NSW,2000,2,0.00352113,4412534,4420655
+134,Bellwether Consulting,bellwetherconsulting.com,first.last,"Level 5, 229 Pacific Highway",North Sydney,NSW,2060,2,0.004,4420655,4429881
+135,Nimbus Legal,nimbuslegal.com.au,first.last,"Level 19, 20 Clarence Street",Sydney,NSW,2000,2,0.00425532,4429881,4439696
+136,Canopy Wealth,canopywealth.com.au,first.last,51 Bligh Street,Sydney,NSW,2000,2,0.00434783,4439696,4449724
+137,Clearwater Education,clearwatereducation.com.au,first.last,"Level 38, 336 Waterloo Road",Macquarie Park,NSW,2113,2,0.011236,4449724,4475637
+138,Waratah Media,waratahmedia.com.au,firstl,"Level 26, 104 Castlereagh Street",Sydney,NSW,2000,2,0.00361011,4475637,4483964
+139,Vista Recruitment,vistarecruitment.com.au,first.last,"Level 3, 301 Mount Street",North Sydney,NSW,2060,2,0.0047619,4483964,4494947
+140,Granite Health,granitehealth.com.au,first.last,"Level 26, 204 Queen Street",Melbourne,VIC,3000,3,0.00333333,4494947,4502635
+141,Vantage Finance,vantagefinance.com.au,first.last,"Level 34, 208 Hunter Street",Newcastle,NSW,2300,2,0.00704225,4502635,4518877
+142,Circular Construction,circularcon.com.au,first.last,"Level 2, 394 Kent Street",Sydney,NSW,2000,2,0.00347222,4518877,4526886
+143,Rosewood Capital,rosewoodcap.com.au,first,"Level 31, 227 Mount Street",North Sydney,NSW,2060,2,0.00970874,4526886,4549277
+144,Zenith Accountants,zenithacc.com.au,first.last,"Level 17, 90 Harris Street",Pyrmont,NSW,2009,2,0.0416667,4549277,4645370
+145,Keystone Dental,keystonedental.com.au,flast,"Level 29, 411 Castlereagh Street",Sydney,NSW,2000,2,0.003125,4645370,4652578
+146,Kestrel Dental,kestreldental.com.au,first.last,"Level 8, 109 Harris Street",Pyrmont,NSW,2009,2,0.0333333,4652578,4729453
+147,Ridgeline Education,ridgelineeducation.com.au,first.last,"Level 32, 188 Clarence Street",Sydney,NSW,2000,2,0.00322581,4729453,4736893
+148,Waratah Labs,waratahlabs.com.au,first.last,"Level 2, 190 Clarence Street",Sydney,NSW,2000,2,0.00291545,4736893,4743618
+149,Paperbark Accountants,paperbarkaccountants.com.au,firstlast,"Level 12, 171 Union Street",Pyrmont,NSW,2009,2,0.0060241,4743618,4757512
+150,Emerald Dental,emeraldden.com.au,first.last,"Level 7, 289 Coward Street",Mascot,NSW,2020,2,0.00314465,4757512,4764765
+151,Quay Capital,quaycapital.com.au,first.last,"Level 7, 244 Pacific Highway",St Leonards,NSW,2065,2,0.00813008,4764765,4783516
+152,Ironbark Construction,ironbarkconstruction.com.au,first.last,"Level 20, 121 O'Riordan Street",Mascot,NSW,2020,2,0.0163934,4783516,4821324
+153,Coastline Property,coastlineproperty.com,firstlast,"Level 16, 89 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00561798,4821324,4834281
+154,Terrace Technology,terrace.com.au,flast,"Level 31, 55 Talavera Road",Macquarie Park,NSW,2113,2,0.0149254,4834281,4868703
+155,Ivory Software,ivorysoftware.com,flast,"Level 21, 234 Bourke Street",Melbourne,VIC,3000,3,0.00714286,4868703,4885177
+156,Kingsford Energy,kingsfordenergy.com.au,firstlast,"Level 4, 199 George Street",Sydney,NSW,2000,2,0.00337838,4885177,4892969
+157,Greenway Engineering,greenway.com.au,flast,"Level 32, 312 Kent Street",Sydney,NSW,2000,2,0.00444444,4892969,4903220
+158,Emerald Labs,emeraldlabs.com.au,first.last,"Level 23, 370 Railway Street",Chatswood,NSW,2067,2,0.0909091,4903220,5112876
+159,Greenway Insurance,greenwayinsurance.com.au,flast,"Level 12, 171 Sussex Street",Sydney,NSW,2000,2,0.00505051,5112876,5124525
+160,Goldleaf Recruitment,goldleaf.com.au,first,"Level 16, 229 Talavera Road",Macquarie Park,NSW,2113,2,0.008,5124525,5142976
+161,Lighthouse Property,lighthouseproperty.com,first.last,"Level 5, 191 Macquarie Street",Sydney,NSW,2000,2,0.0105263,5142976,5167253
+162,Isthmus Consulting,isthmusconsulting.com.au,firstlast,"Level 16, 37 Kent Street",Sydney,NSW,2000,2,0.00473934,5167253,5178184
+163,Dune Software,dunesoftware.com.au,first.last,"Level 3, 351 Walker Street",North Sydney,NSW,2060,2,0.00421941,5178184,5187916
+164,Yarra Construction,yarracon.com.au,first.last,"Level 18, 34 Berry Street",North Sydney,NSW,2060,2,0.0033557,5187916,5195656
+165,Tasman Group,tasmangroup.com.au,first.last,"Level 38, 92 Harris Street",Pyrmont,NSW,2009,2,0.0384615,5195656,5284357
+166,Emerald Advisory,emeraldadvisory.com.au,first.last,"Level 37, 35 York Street",Sydney,NSW,2000,2,0.0121951,5284357,5312482
+167,Blue Gum Construction,bluegumconstruction.com,first.last,"Level 6, 359 Macquarie Street",Sydney,NSW,2000,2,0.00769231,5312482,5330223
+168,Driftwood Advisory,driftwoodadvisory.com.au,first.last,"Level 26, 83 Flinders Lane",Melbourne,VIC,3000,3,0.00990099,5330223,5353058
+169,Mosaic Insurance,mosaic.com.au,first.last,"Level 17, 301 Kent Street",Sydney,NSW,2000,2,0.0243902,5353058,5409308
+170,Oakridge Education,oakridgeeducation.com.au,first.last,"Level 2, 90 George Street",Sydney,NSW,2000,2,0.00483092,5409308,5420450
+171,Canopy Consulting,canopy.com.au,flast,"Level 14, 380 Church Street",Parramatta,NSW,2150,2,0.00309598,5420450,5427591
+172,Longreach Engineering,longreacheng.com.au,flast,"Level 3, 352 Macquarie Street",Sydney,NSW,2000,2,0.00409836,5427591,5437044
+173,Canopy Realty,canopyrea.com.au,first,"Level 35, 74 Crown Street",Surry Hills,NSW,2010,2,0.0113636,5437044,5463252
+174,Clearwater Realty,clearwaterrealty.com.au,first.last,"Level 35, 248 Sussex Street",Sydney,NSW,2000,2,0.0133333,5463252,5494002
+175,Ironbark Wealth,ironbarkwealth.com.au,first.last,"Level 7, 53 Smith Street",Parramatta,NSW,2150,2,0.00507614,5494002,5505710
+176,Paperbark Health,paperbarkhealth.com.au,first.last,"Level 36, 121 Church Street",Parramatta,NSW,2150,2,0.00588235,5505710,5519277
+177,Ridgeline Recruitment,ridgelinerecruitment.com.au,first.last,"Level 17, 164 Khartoum Road",Macquarie Park,NSW,2113,2,0.00735294,5519277,5536235
+178,Sapphire Accountants,sapphireaccountants.com,first.last,"Level 24, 308 Elizabeth Street",Sydney,NSW,2000,2,0.00546448,5536235,5548838
+179,Eastbrook Construction,eastbrookconstruction.com.au,firstlast,"Level 8, 33 Castlereagh Street",Sydney,NSW,2000,2,0.00438596,5548838,5558954
+180,Brightwater Consulting,brightwaterconsulting.com.au,firstlast,"Level 24, 235 Kent Street",Sydney,NSW,2000,2,0.00666667,5558954,5574330
+181,Paperbark Advisory,paperbarkadvisory.com,firstlast,"Level 36, 76 Macquarie Street",Sydney,NSW,2000,2,0.00854701,5574330,5594042
+182,Eucalypt Group,eucalyptgroup.com.au,first,"Level 12, 207 Walker Street",North Sydney,NSW,2060,2,0.025,5594042,5651698
+183,Flinders Recruitment,flindersrecruitment.com.au,flast,"Level 20, 57 Elizabeth Street",Sydney,NSW,2000,2,0.003003,5651698,5658625
+184,Barton Construction,bartonconstruction.com.au,first.last,"Level 29, 286 Queen Street",Brisbane City,QLD,4000,7,0.0052356,5658625,5670700
+185,Macleay Finance,macleayfinance.com.au,firstl,"Level 38, 297 O'Riordan Street",Mascot,NSW,2020,2,0.00819672,5670700,5689604
+186,Redfern Architects,redfernarchitects.com.au,first.last,"Level 29, 175 Hunter Street",Sydney,NSW,2000,2,0.00338983,5689604,5697423
+187,Northgate Architects,northgatearchitects.com.au,first.last,"Level 29, 74 Northbourne Avenue",Canberra,ACT,2601,2,0.0114943,5697423,5723932
+188,Kingsford Education,kingsfordeducation.com.au,flast,"Level 6, 165 Walker Street",North Sydney,NSW,2060,2,0.0714286,5723932,5888662
+189,Tidewater Education,tidewatereducation.com.au,first.last,"Level 21, 303 Sussex Street",Sydney,NSW,2000,2,0.00377358,5888662,5897366
+190,Goldleaf Energy,goldleafenergy.com.au,firstl,"Level 20, 412 Pyrmont Street",Pyrmont,NSW,2009,2,0.0044843,5897366,5907709
+191,Nimbus Education,nimbuseducation.com.au,first.last,161 Pitt Street,Sydney,NSW,2000,2,0.00392157,5907709,5916754
+192,Eastbrook Design,eastbrookdesign.com.au,first_last,"Level 21, 379 Riley Street",Surry Hills,NSW,2010,2,0.0123457,5916754,5945227
+193,Headland Energy,headlandenergy.com.au,firstl,"Level 21, 397 Pyrmont Street",Pyrmont,NSW,2009,2,0.125,5945227,6233504
+194,Summit Energy,summitenergy.com,flast,"Level 15, 164 Queen Street",Melbourne,VIC,3000,3,0.030303,6233504,6303390
+195,Delta Design,deltadesign.com,flast,"Level 2, 15 Bligh Street",Sydney,NSW,2000,2,0.00649351,6303390,6318366
+196,Highline Group,highlinegroup.com.au,first.last,189 George Street,Sydney,NSW,2000,2,0.00840336,6318366,6337747
+197,Nimbus Technology,nimbustech.com,first.last,15 Commonwealth Street,Surry Hills,NSW,2010,2,0.0037037,6337747,6346290
+198,Longreach Group,longreachgroup.com.au,flast,"Level 39, 2 Sussex Street",Sydney,NSW,2000,2,0.00694444,6346290,6362306
+199,Mosaic Technology,mosaictech.com,first.last,"Level 27, 255 Queen Street",Melbourne,VIC,3000,3,0.00917431,6362306,6383465
+200,Headland Hospitality,headland.com.au,flast,"Level 17, 102 Pacific Highway",North Sydney,NSW,2060,2,0.003367,6383465,6391231
+201,Quarry Hospitality,quarryhospitality.com.au,first,"Level 20, 31 Sussex Street",Sydney,NSW,2000,2,0.00877193,6391231,6411462
+202,Inlet Hospitality,inlethos.com.au,first.last,"Level 39, 397 Khartoum Road",Macquarie Park,NSW,2113,2,0.00408163,6411462,6420876
+203,Redfern Design,redferndesign.com.au,firstl,"Level 8, 228 Macquarie Street",Sydney,NSW,2000,2,0.00537634,6420876,6433276
+204,Upland Accountants,uplandaccountants.com.au,flast,"Level 18, 68 Mentmore Avenue",Alexandria,NSW,2015,2,0.00515464,6433276,6445165
+205,Axis Capital,axiscapital.com,first,"Level 30, 199 Walker Street",North Sydney,NSW,2060,2,0.0138889,6445165,6477197
+206,Upland Studio,upland.com.au,flast,"Level 4, 356 Coward Street",Mascot,NSW,2020,2,0.0042735,6477197,6487054
+207,Opal Pharmacy,opal.com.au,flast,"Level 6, 18 Mentmore Avenue",Alexandria,NSW,2015,2,0.00512821,6487054,6498882
+208,Oakridge Studio,oakridgestudio.com.au,flast,"Level 30, 176 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00363636,6498882,6507269
+209,Circular Labs,circularlabs.com.au,first.last,"Level 24, 375 Christie Street",St Leonards,NSW,2065,2,0.00359712,6507269,6515566
+210,Ivory Advisory,ivoryadv.com.au,first.last,"Level 28, 170 Bourke Road",Alexandria,NSW,2015,2,0.00653595,6515566,6530640
+211,Arcadia Insurance,arcadiainsurance.com.au,flast,"Level 23, 170 Church Street",Parramatta,NSW,2150,2,0.00671141,6530640,6546119
+212,Macleay Realty,macleayrealty.com.au,flast,"Level 17, 218 Talavera Road",Macquarie Park,NSW,2113,2,0.00699301,6546119,6562247
+213,Arcadia Dental,arcadiadental.com.au,firstlast,127 Cleveland Street,Surry Hills,NSW,2010,2,0.00304878,6562247,6569279
+214,Inlet Energy,inletenergy.com.au,flast,"Level 28, 159 Eagle Street",Brisbane City,QLD,4000,7,0.00373134,6569279,6577885
+215,Arcadia Hospitality,arcadiahospitality.com.au,firstlast,"Level 28, 301 Berry Street",North Sydney,NSW,2060,2,0.0135135,6577885,6609051
+216,Emerald Engineering,emeraldeng.com,first.last,"Level 4, 9 Miller Street",North Sydney,NSW,2060,2,0.00374532,6609051,6617689
+217,Wattle Partners,wattlepartners.com,first.last,"Level 12, 149 Macquarie Street",Sydney,NSW,2000,2,0.00549451,6617689,6630361
+218,Northwind Advisory,northwindadvisory.com,first.last,343 Pitt Street,Sydney,NSW,2000,2,0.00381679,6630361,6639164
+219,Wattle Capital,wattlecapital.com.au,first,"Level 33, 142 Jones Street",Ultimo,NSW,2007,2,0.00526316,6639164,6651303
+220,Circular Recruitment,circularrecruitment.com.au,flast,"Level 37, 349 Church Street",Parramatta,NSW,2150,2,0.00518135,6651303,6663253
+221,Northwind Labs,northwindlabs.com,first.last,"Level 11, 102 Pacific Highway",North Sydney,NSW,2060,2,0.00396825,6663253,6672406
+222,Sapphire Health,sapphirehealth.com.au,first.last,"Level 23, 28 Berry Street",North Sydney,NSW,2060,2,0.00543478,6672406,6684941
+223,Greenway Technology,greenwaytech.com,first,"Level 27, 193 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00334448,6684941,6692655
+224,Oakridge Energy,oakridgeenergy.com.au,first.last,"Level 31, 254 Commonwealth Street",Surry Hills,NSW,2010,2,0.00540541,6692655,6705122
+225,Clearwater Media,clearwatermedia.com.au,first.last,"Level 17, 276 Hunter Street",Sydney,NSW,2000,2,0.00364964,6705122,6713540
+226,Arcadia Construction,arcadiaconstruction.com.au,flast,"Level 12, 322 Foveaux Street",Surry Hills,NSW,2010,2,0.00332226,6713540,6721203
+227,Juniper Pharmacy,juniperpharmacy.com.au,first.last,"Level 27, 152 Kent Street",Sydney,NSW,2000,2,0.0078125,6721203,6739221
+228,Vista Realty,vistarealty.com,first.last,"Level 26, 143 Collins Street",Melbourne,VIC,3000,3,0.00401606,6739221,6748484
+229,Pinnacle Capital,pinnaclecapital.com.au,first.last,"Level 28, 316 Creek Street",Brisbane City,QLD,4000,7,0.0031348,6748484,6755714
+230,Blue Gum Architects,bluegum.com.au,firstlast,"Level 9, 376 Albert Avenue",Chatswood,NSW,2067,2,0.00423729,6755714,6765487
+231,Crestwood Group,crestwoodgroup.com.au,flast,"Level 39, 408 George Street",Sydney,NSW,2000,2,0.0833333,6765487,6957672
+232,Southern Cross Pharmacy,southerncrosspharmacy.com.au,first.last,"Level 22, 226 Market Street",Sydney,NSW,2000,2,0.00480769,6957672,6968761
+233,Anchor Labs,anchorlabs.com.au,flast,"Level 15, 191 Mentmore Avenue",Alexandria,NSW,2015,2,0.00787402,6968761,6986921
+234,Inlet Health,inlethealth.com.au,flast,"Level 28, 230 Collins Street",Melbourne,VIC,3000,3,0.0106383,6986921,7011456
+235,Macleay Construction,macleayconstruction.com.au,first.last,"Level 34, 287 George Street",Sydney,NSW,2000,2,0.00591716,7011456,7025103
+236,Eucalypt Studio,eucalyptstudio.com.au,flast,"Level 2, 219 Mount Street",North Sydney,NSW,2060,2,0.00395257,7025103,7034219
+237,Ridgeline Architects,ridgelinearchitects.com.au,last.first,"Level 35, 54 York Street",Sydney,NSW,2000,2,0.00308642,7034219,7041338
+238,Greenway Construction,greenwayconstruction.com.au,first.last,"Level 4, 262 Bligh Street",Sydney,NSW,2000,2,0.0151515,7041338,7076282
+239,Goldleaf Medical,goldleafmedical.com.au,first_last,"Level 11, 341 Hunter Street",Sydney,NSW,2000,2,0.00900901,7076282,7097060
+240,Northwind Hospitality,northwindhospitality.com.au,first.last,"Level 36, 294 Khartoum Road",Macquarie Park,NSW,2113,2,0.00740741,7097060,7114144
+241,Quarry Studio,quarry.com.au,flast,"Level 21, 376 Berry Street",North Sydney,NSW,2060,2,0.00925926,7114144,7135499
+242,Jarrah Construction,jarrahconstruction.com.au,first.last,"Level 6, 259 Macquarie Street",Sydney,NSW,2000,2,0.00729927,7135499,7152334
+243,Riverstone Medical,riverstone.com.au,flast,"Level 23, 18 Help Street",Chatswood,NSW,2067,2,0.00934579,7152334,7173888
+244,Vantage Recruitment,vantagerecruitment.com.au,first.last,"Level 36, 173 Bourke Road",Mascot,NSW,2020,2,0.00485437,7173888,7185084
+245,Highline Insurance,highlineinsurance.com,firstlast,"Level 34, 32 Chandos Street",St Leonards,NSW,2065,2,0.0196078,7185084,7230305
+246,Vista Dental,vistadental.com,last.first,163 Commonwealth Street,Surry Hills,NSW,2010,2,0.00446429,7230305,7240602
+247,Cornerstone Dental,cornerstone.com.au,first.last,"Level 35, 341 Cleveland Street",Surry Hills,NSW,2010,2,0.00568182,7240602,7253706
+248,Canopy Legal,canopylegal.com.au,first.last,"Level 17, 322 Market Street",Sydney,NSW,2000,2,0.00301205,7253706,7260653
+249,Waratah Group,waratahgroup.com.au,first.last,"Level 32, 197 Macquarie Street",Sydney,NSW,2000,2,0.00487805,7260653,7271904
+250,Longreach Health,longreachhealth.com,first.last,"Level 23, 77 Christie Street",St Leonards,NSW,2065,2,0.00431034,7271904,7281846
+251,Kurrajong Finance,kurrajongfinance.com.au,firstlast,"Level 5, 144 Mount Street",North Sydney,NSW,2060,2,0.005,7281846,7293378
+252,Parkside Logistics,parksidelog.com.au,first,"Level 6, 76 Khartoum Road",Macquarie Park,NSW,2113,2,0.00323625,7293378,7300842
+253,Kestrel Studio,kestrelstudio.com.au,first.last,"Level 15, 361 Smith Street",Parramatta,NSW,2150,2,0.00552486,7300842,7313584
+254,Harbour Engineering,harboureng.com.au,first.last,"Level 20, 382 Pacific Highway",North Sydney,NSW,2060,2,0.00383142,7313584,7322421
+255,Sandstone Finance,sandstonefinance.com,last.first,"Level 18, 64 Macquarie Street",Sydney,NSW,2000,2,0.00384615,7322421,7331292
+256,Kurrajong Health,kurrajonghealth.com.au,last.first,"Level 12, 403 Murray Street",Perth,WA,6000,8,0.00961538,7331292,7353468
+257,Clearwater Studio,clearwaterstudio.com.au,last.first,"Level 9, 106 Help Street",Chatswood,NSW,2067,2,0.00490196,7353468,7364774
+258,Dune Legal,dunelegal.com,first.last,"Level 7, 130 Bligh Street",Sydney,NSW,2000,2,0.0041841,7364774,7374424
+259,Dune Accountants,duneaccountants.com.au,first.last,"Level 38, 4 Help Street",Chatswood,NSW,2067,2,0.0037594,7374424,7383095
+260,Bondi Energy,bondienergy.com.au,flast,"Level 4, 95 Mount Street",North Sydney,NSW,2060,2,0.00416667,7383095,7392705
+261,Harbour Recruitment,harbour.com.au,flast,"Level 12, 264 Berry Street",North Sydney,NSW,2060,2,0.00303951,7392705,7399716
+262,Parkside Hospitality,parksidehospitality.com.au,first.last,"Level 39, 272 Riley Street",Surry Hills,NSW,2010,2,0.047619,7399716,7509536
+263,Rosewood Construction,rosewoodconstruction.com.au,flast,"Level 29, 106 Cleveland Street",Surry Hills,NSW,2010,2,0.00406504,7509536,7518912
+264,Blue Gum Studio,bluegumstudio.com.au,flast,"Level 5, 333 Khartoum Road",Macquarie Park,NSW,2113,2,0.0120482,7518912,7546699
+265,Goldleaf Hospitality,goldleafhospitality.com,first.last,"Level 30, 283 O'Riordan Street",Mascot,NSW,2020,2,0.0046729,7546699,7557477
+266,Yarra Hospitality,yarrahospitality.com.au,firstlast,"Level 24, 335 William Street",Melbourne,VIC,3000,3,0.0185185,7557477,7600186
+267,Wharf Property,wharfproperty.com.au,firstl,"Level 36, 96 Waterloo Road",Macquarie Park,NSW,2113,2,0.0153846,7600186,7635667
+268,Arcadia Architects,arcadiaarchitects.com.au,firstlast,"Level 13, 126 Chandos Street",St Leonards,NSW,2065,2,0.2,7635667,8096909
+269,Northgate Wealth,northgatewealth.com.au,first.last,"Level 22, 187 Wattle Street",Ultimo,NSW,2007,2,0.0232558,8096909,8150543
+270,Kingsford Labs,kingsfordlab.com.au,first.last,"Level 23, 263 Murray Street",Perth,WA,6000,8,0.0172414,8150543,8190306
+271,Terrace Architects,terracearchitects.com,firstlast,"Level 38, 37 George Street",Sydney,NSW,2000,2,0.00555556,8190306,8203119
+272,Granite Design,granitedesign.com.au,flast,"Level 12, 135 Pacific Highway",St Leonards,NSW,2065,2,0.0107527,8203119,8227918
+273,Tidewater Studio,tidewaterstudio.com.au,first.last,"Level 5, 342 Market Street",Sydney,NSW,2000,2,0.0434783,8227918,8328189
+274,Pacific Finance,pacificfinance.com.au,first.last,"Level 20, 212 Clarence Street",Sydney,NSW,2000,2,0.016129,8328189,8365387
+275,Highline Finance,highlinefinance.com.au,flast,"Level 10, 235 Wattle Street",Ultimo,NSW,2007,2,0.012987,8365387,8395339
+276,Dune Group,dunegroup.com,first.last,"Level 27, 289 Walker Street",North Sydney,NSW,2060,2,0.00675676,8395339,8410922
+277,Oakridge Technology,oakridgetec.com.au,first.last,"Level 18, 17 Kent Street",Sydney,NSW,2000,2,0.00632911,8410922,8425519
+278,Riverstone Finance,riverstonefinance.com.au,flast,"Level 10, 408 Market Street",Sydney,NSW,2000,2,0.03125,8425519,8497589
+279,Eucalypt Realty,eucalyptrealty.com.au,flast,"Level 28, 128 Market Street",Sydney,NSW,2000,2,0.00606061,8497589,8511567
+280,Flinders Property,flinderspro.com.au,first.last,"Level 25, 146 Eagle Street",Brisbane City,QLD,4000,7,0.00581395,8511567,8524976
+281,Quay Group,quay.com.au,flast,"Level 24, 350 Pacific Highway",North Sydney,NSW,2060,2,0.00343643,8524976,8532902
+282,Dune Construction,duneconstruction.com,flast,"Level 21, 370 George Street",Sydney,NSW,2000,2,0.0588235,8532902,8668562
+283,Terrace Realty,terracerealty.com.au,flast,"Level 8, 135 Smith Street",Parramatta,NSW,2150,2,0.00331126,8668562,8676199
+284,Brightwater Education,brightwatereducation.com.au,firstlast,"Level 9, 286 Clarence Street",Sydney,NSW,2000,2,0.0212766,8676199,8725268
+285,Wattle Health,wattle.com.au,flast,"Level 13, 409 Harris Street",Ultimo,NSW,2007,2,0.00307692,8725268,8732365
+286,Laneway Labs,lanewaylab.com.au,flast,"Level 33, 286 Pacific Highway",North Sydney,NSW,2060,2,0.00613497,8732365,8746515
+287,Zenith Wealth,zenithwealth.com.au,first,"Level 10, 350 Collins Street",Melbourne,VIC,3000,3,0.00328947,8746515,8754102
+288,Kestrel Accountants,kestrelaccountants.com.au,first.last,"Level 18, 398 Eagle Street",Brisbane City,QLD,4000,7,0.0217391,8754102,8804238
+289,Foundry Consulting,foundryconsulting.com.au,first.last,"Level 11, 270 Castlereagh Street",Sydney,NSW,2000,2,0.00442478,8804238,8814443
+290,Delta Legal,deltalegal.com.au,first.last,"Level 17, 312 Miller Street",North Sydney,NSW,2060,2,0.0526316,8814443,8935823
+291,Westbury Group,westburygroup.com.au,first.last,"Level 4, 230 Euston Road",Alexandria,NSW,2015,2,0.0049505,8935823,8947241
+292,Meridian Engineering,meridianeng.com.au,flast,"Level 24, 160 Macquarie Street",Sydney,NSW,2000,2,0.00847458,8947241,8966786
+293,Coastline Advisory,coastlineadvisory.com.au,first.last,"Level 22, 319 Mount Street",North Sydney,NSW,2060,2,0.00806452,8966786,8985385
+294,Keystone Logistics,keystonelogistics.com.au,firstlast,"Level 27, 296 Waterloo Road",Macquarie Park,NSW,2113,2,0.00290698,8985385,8992090
+295,Granite Architects,granitearchitects.com.au,flast,"Level 26, 258 Albert Avenue",Chatswood,NSW,2067,2,0.00293255,8992090,8998854
+296,Barton Consulting,barton.com.au,first.last,"Level 22, 90 Church Street",Parramatta,NSW,2150,2,0.00369004,8998854,9007365
+297,Crestwood Accountants,crestwoodaccountants.com,flast,"Level 32, 267 Elizabeth Street",Sydney,NSW,2000,2,0.00617284,9007365,9021602
+298,Quay Education,quayeducation.com.au,first.last,"Level 32, 227 Elizabeth Street",Sydney,NSW,2000,2,0.00621118,9021602,9035927
+299,Nimbus Construction,nimbusconstruction.com.au,first.last,"Level 12, 402 Market Street",Sydney,NSW,2000,2,0.00320513,9035927,9043320
+300,Headland Capital,headlandcapital.com.au,firstlast,"Level 6, 168 Sussex Street",Sydney,NSW,2000,2,0.00294118,9043320,9050104
+301,Rosewood Software,rosewood.com.au,first.last,"Level 38, 374 Foveaux Street",Surry Hills,NSW,2010,2,0.0136986,9050104,9081697
+302,Eucalypt Partners,eucalyptpar.com.au,flast,"Level 39, 282 Union Street",Pyrmont,NSW,2009,2,0.00478469,9081697,9092732
+303,Keystone Technology,keystonetec.com.au,first.last,36 Christie Street,St Leonards,NSW,2065,2,0.00719424,9092732,9109324
+304,Quarry Software,quarrysoftware.com.au,firstlast,"Level 37, 114 Khartoum Road",Macquarie Park,NSW,2113,2,0.004329,9109324,9119309
+305,Bondi Dental,bondidental.com.au,first.last,"Level 17, 182 Sussex Street",Sydney,NSW,2000,2,0.00578035,9119309,9132641
+306,Anchor Property,anchorproperty.com.au,first_last,"Level 36, 307 Pacific Highway",North Sydney,NSW,2060,2,0.00869565,9132641,9152696
+307,Barton Studio,bartonstudio.com.au,firstl,"Level 26, 262 Macquarie Street",Sydney,NSW,2000,2,0.00350877,9152696,9160789
+308,Keystone Capital,keystonecapital.com,first,"Level 34, 332 O'Riordan Street",Alexandria,NSW,2015,2,0.0769231,9160789,9338191
+309,Tidewater Logistics,tidewaterlogistics.com.au,first.last,"Level 5, 214 York Street",Sydney,NSW,2000,2,0.00763359,9338191,9355797
+310,Westbury Hospitality,westburyhospitality.com.au,first_last,"Level 7, 57 Market Street",Sydney,NSW,2000,2,0.0131579,9355797,9386143
+311,Hawthorn Consulting,hawthorncon.com.au,first.last,"Level 29, 161 Bourke Street",Melbourne,VIC,3000,3,0.02,9386143,9432268
+312,Headland Insurance,headlandinsurance.com.au,first.last,"Level 31, 117 Flinders Lane",Melbourne,VIC,3000,3,0.01,9432268,9455331
+313,Granite Partners,granite.com.au,first.last,"Level 29, 339 Lane Cove Road",Macquarie Park,NSW,2113,2,0.00344828,9455331,9463284
+314,Ivory Logistics,ivorylogistics.com,first.last,"Level 33, 343 Albert Avenue",Chatswood,NSW,2067,2,0.00520833,9463284,9475296
+315,Jarrah Insurance,jarrahinsurance.com.au,first.last,"Level 9, 175 Coward Street",Mascot,NSW,2020,2,0.00598802,9475296,9489107
+316,Riverstone Insurance,riverstoneinsurance.com.au,flast,"Level 22, 218 Bourke Road",Alexandria,NSW,2015,2,0.00574713,9489107,9502362
+317,Hawthorn Energy,hawthornenergy.com,first.last,"Level 27, 8 Christie Street",St Leonards,NSW,2065,2,0.00440529,9502362,9512522
+318,Bondi Engineering,bondieng.com.au,first.last,"Level 36, 77 O'Riordan Street",Alexandria,NSW,2015,2,0.027027,9512522,9574853
+319,Wattle Studio,wattlestudio.com,firstl,"Level 31, 175 William Street",Melbourne,VIC,3000,3,0.00390625,9574853,9583863
+320,Westbury Dental,westburydental.com.au,last.first,"Level 2, 152 Khartoum Road",Macquarie Park,NSW,2113,2,0.015625,9583863,9619898
+321,Quay Design,quaydesign.com.au,last.first,"Level 19, 393 Hunter Street",Sydney,NSW,2000,2,0.00325733,9619898,9627411
+322,Wharf Finance,wharffinance.com,first.last,"Level 7, 410 Cleveland Street",Surry Hills,NSW,2010,2,0.00362319,9627411,9635768
+323,Delta Health,delta.com.au,firstlast,"Level 26, 299 Queen Street",Brisbane City,QLD,4000,7,0.0111111,9635768,9661394
+324,Driftwood Studio,driftwoodstudio.com,first.last,"Level 34, 40 Commonwealth Street",Surry Hills,NSW,2010,2,0.0227273,9661394,9713809
+325,Highline Health,highlinehealth.com,first.last,114 Union Street,Pyrmont,NSW,2009,2,0.00465116,9713809,9724537
+326,Hawthorn Recruitment,hawthornrecruitment.com.au,first.last,"Level 10, 257 William Street",Melbourne,VIC,3000,3,0.00315457,9724537,9731813
+327,Wharf Partners,wharfpartners.com.au,first.last,"Level 26, 343 Brookhollow Avenue",Norwest,NSW,2153,2,0.00510204,9731813,9743580
+328,Terrace Dental,terracedental.com,flast,"Level 30, 223 O'Riordan Street",Mascot,NSW,2020,2,0.00294985,9743580,9750384
+329,Sapphire Design,sapphiredesign.com.au,flast,"Level 6, 188 St Georges Terrace",Perth,WA,6000,8,0.003861,9750384,9759289
+330,Southern Cross Construction,southerncrossconstruction.com.au,first.last,"Level 34, 121 Sussex Street",Sydney,NSW,2000,2,0.00380228,9759289,9768059
+331,Anchor Advisory,anchoradvisory.com.au,first,"Level 6, 310 Miller Street",North Sydney,NSW,2060,2,0.00492611,9768059,9779421
+332,Hawthorn Health,hawthornhealth.com.au,firstlast,"Level 11, 115 King Street",Newcastle,NSW,2300,2,0.003663,9779421,9787870
+333,Anchor Architects,anchorarc.com.au,flast,"Level 32, 199 York Street",Sydney,NSW,2000,2,0.05,9787870,9903181
+334,Axis Legal,axislegal.com.au,first.last,"Level 3, 288 Pacific Highway",North Sydney,NSW,2060,2,0.00298507,9903181,9910066
+335,Keystone Hospitality,keystonehospitality.com.au,first.last,"Level 32, 214 Hunter Street",Sydney,NSW,2000,2,0.00341297,9910066,9917938
+336,Mosaic Education,mosaiceducation.com.au,first.last,"Level 39, 364 Walker Street",North Sydney,NSW,2060,2,0.00311526,9917938,9925123
+337,Zenith Media,zenithmedia.com.au,flast,"Level 23, 122 Pacific Highway",St Leonards,NSW,2065,2,0.00502513,9925123,9936713
+338,Inlet Labs,inletlabs.com,first.last,"Level 12, 86 George Street",Sydney,NSW,2000,2,0.00299401,9936713,9943619
+339,Cornerstone Wealth,cornerstonewealth.com.au,first.last,"Level 15, 73 Jones Street",Ultimo,NSW,2007,2,0.00404858,9943619,9952957
+340,Canopy Logistics,canopylogistics.com.au,first_last,146 Queen Street,Brisbane City,QLD,4000,7,0.015873,9952957,9989564
+341,Blue Gum Design,bluegumdesign.com.au,first.last,"Level 12, 19 Pacific Highway",North Sydney,NSW,2060,2,0.00452489,9989564,10000000

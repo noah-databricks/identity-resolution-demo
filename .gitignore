@@ -1,0 +1,17 @@
+.databricks/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!.tfvars.example
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+/.impeccable/
+mlflow.db

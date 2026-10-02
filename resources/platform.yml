@@ -1,0 +1,80 @@
+# Everything the pipeline and apps run on. The catalog is not created here: pass one you
+# own with --var catalog=<name>.
+resources:
+  schemas:
+    source:
+      catalog_name: ${var.catalog}
+      name: source
+      comment: Resolver input contract (generated guest records)
+    truth:
+      catalog_name: ${var.catalog}
+      name: truth
+      comment: Restricted synthetic ground truth; never read by the resolver or apps
+    reference:
+      catalog_name: ${var.catalog}
+      name: reference
+      comment: Public reference data used by the generator
+    resolver:
+      catalog_name: ${var.catalog}
+      name: resolution_splink_v4
+      comment: Splink v4 resolver outputs and frozen releases
+    gold:
+      catalog_name: ${var.catalog}
+      name: gold
+      comment: Resolved guests, published for Databricks and Snowflake
+    steward_ai:
+      catalog_name: ${var.catalog}
+      name: steward_ai
+      comment: Governed model services for the Steward review agent
+      grants:
+        - principal: ${resources.apps.steward.service_principal_client_id}
+          privileges: [USE_SCHEMA]
+
+  vector_search_endpoints:
+    identity_search:
+      name: identity-resolution-search
+      endpoint_type: STANDARD
+
+  sql_warehouses:
+    demo_warehouse:
+      name: identity-resolution-demo
+      cluster_size: 2X-Small
+      min_num_clusters: 1
+      max_num_clusters: 1
+      auto_stop_mins: 10
+      enable_serverless_compute: true
+      warehouse_type: PRO
+
+  experiments:
+    review_agent_experiment:
+      name: /Users/${workspace.current_user.userName}/identity-steward-review-agent
+
+  postgres_projects:
+    steward_db:
+      project_id: identity-steward
+      display_name: Identity Steward
+      pg_version: 17
+
+  model_services:
+    review_agent:
+      parent: schemas/${var.catalog}.steward_ai
+      model_service_id: review_agent
+      comment: Steward review agent; GPT-5.6 Sol with GPT-5.5 then Claude Sonnet 5 as Unity Gateway fallbacks on 429/5xx
+      config:
+        routing:
+          destinations:
+            - name: sol-6
+              destination_type: DESTINATION_TYPE_PAY_PER_TOKEN_FOUNDATION_MODEL
+              pay_per_token_config: {model: "${var.review_model}"}
+              traffic_percentage: 100
+          fallback:
+            destinations:
+              - name: gpt-5-5
+                destination_type: DESTINATION_TYPE_PAY_PER_TOKEN_FOUNDATION_MODEL
+                pay_per_token_config: {model: models/system.ai.databricks-gpt-5-5}
+              - name: claude-sonnet-5
+                destination_type: DESTINATION_TYPE_PAY_PER_TOKEN_FOUNDATION_MODEL
+                pay_per_token_config: {model: models/system.ai.databricks-claude-sonnet-5}
+      grants:
+        - principal: ${resources.apps.steward.service_principal_client_id}
+          privileges: [EXECUTE]
